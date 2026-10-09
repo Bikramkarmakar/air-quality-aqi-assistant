@@ -1,0 +1,26 @@
+Air Quality Dataset - Data Quality Report
+=============================================
+Total rows after cleaning : 24850
+Date range                : 2015-01-01 to 2020-07-01
+Cities covered            : 26 (Ahmedabad, Aizawl, Amaravati, Amritsar, Bengaluru, Bhopal ...)
+
+Target distribution (AQI_Bucket):
+  Good           :  1341  (5.4 %)
+  Satisfactory   :  8224  (33.1 %)
+  Moderate       :  8829  (35.5 %)
+  Poor           :  2781  (11.2 %)
+  Very Poor      :  2337  (9.4 %)
+  Severe         :  1338  (5.4 %)
+
+Remaining missing values per feature:
+  PM2.5       : 0
+  PM10        : 0
+  NO          : 0
+  NO2         : 0
+  NOx         : 0
+  NH3         : 0
+  CO          : 0
+  SO2         : 0
+  O3          : 0
+  Benzene     : 0
+  Toluene     : 0

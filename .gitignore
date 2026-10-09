@@ -1,0 +1,65 @@
+# ============================================================
+#  Air Quality AQI Assistant — .gitignore
+#  NEVER commit secrets, credentials, or large generated files
+# ============================================================
+
+# -- SECRETS — absolutely never commit -----------------------
+.env
+.env.*
+!.env.example
+secrets.toml
+*.secret
+*.key
+*_credentials*
+*_token*
+
+# -- Streamlit secrets (cloud) --------------------------------
+.streamlit/secrets.toml
+
+# -- Python cache ---------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# -- Virtual environments -------------------------------------
+venv/
+.venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# -- Build / packaging ----------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+.Python
+
+# -- Jupyter --------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -- IDE / OS -------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# -- Logs / temp ----------------------------------------------
+*.log
+*.tmp
+*.bak
+*.orig
+
+# -- Large raw data files (kept in Project Extra, not repo) ---
+station_day.csv
+
+# -- Model files — included in this repo (68 MB, under 100MB limit)
+# To EXCLUDE them from GitHub, uncomment the line below and use Git LFS instead:
+# models/*.pkl
