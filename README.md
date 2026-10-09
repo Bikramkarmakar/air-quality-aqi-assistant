@@ -288,4 +288,4 @@ MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
-*Built as part of an IBM AI Internship project · Targeting SDG 3, 11, 13 · 2024*
+*Built as part of an IBM AI Internship project · Targeting SDG 3, 11, 13 · 2026*
